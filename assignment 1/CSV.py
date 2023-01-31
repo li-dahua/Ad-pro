@@ -18,7 +18,7 @@ with open(destination_file, "w", newline='') as dest:
 # send a notification email
 server = smtplib.SMTP("smtp.gmail.com",587)
 server.starttls() 
-server.login("lidahua@graduate.utm.my", "yylbxcdkgnkpuvzl")
+server.login("lidahua@graduate.utm.my", "")
 
 from_email = "lidahua@graduate.utm.my"
 to_email = "raylidahua@gmail.com"
